@@ -1,0 +1,7 @@
+15:59:24 **** Clean-only build of configuration Debug for project 01_7_array ****
+make -j3 clean 
+rm -rf *
+ 
+
+15:59:24 Build Finished. 0 errors, 0 warnings. (took 75ms)
+

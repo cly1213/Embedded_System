@@ -1,0 +1,10 @@
+16:35:47 **** Incremental Build of configuration Debug for project 012stringvariable ****
+make -j3 all 
+arm-none-eabi-size   012stringvariable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3608	    108	   1596	   5312	   14c0	012stringvariable.elf
+Finished building: default.size.stdout
+ 
+
+16:35:47 Build Finished. 0 errors, 0 warnings. (took 77ms)
+

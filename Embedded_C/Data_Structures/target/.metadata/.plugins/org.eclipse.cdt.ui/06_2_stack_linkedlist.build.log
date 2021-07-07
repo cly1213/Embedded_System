@@ -1,0 +1,7 @@
+15:59:26 **** Clean-only build of configuration Debug for project 06_2_stack_linkedlist ****
+make -j3 clean 
+rm -rf *
+ 
+
+15:59:26 Build Finished. 0 errors, 0 warnings. (took 72ms)
+

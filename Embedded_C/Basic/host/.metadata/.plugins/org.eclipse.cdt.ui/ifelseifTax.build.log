@@ -1,0 +1,25 @@
+15:54:35 **** Rebuild of configuration Debug for project ifelseifTax ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+../main.c:42:26: warning: length modifier 'I64' results in undefined behavior or no effect with 'u' conversion specifier [-Wformat]
+        printf("Tax payable : $%I64u\n",tax );
+                               ~^~~~
+../main.c:35:11: warning: variable 'tax' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+        }else if(income > 82500){
+                 ^~~~~~~~~~~~~~
+../main.c:42:34: note: uninitialized use occurs here
+        printf("Tax payable : $%I64u\n",tax );
+                                        ^~~
+../main.c:35:8: note: remove the 'if' if its condition is always true
+        }else if(income > 82500){
+              ^~~~~~~~~~~~~~~~~~
+../main.c:13:14: note: initialize the variable 'tax' to silence this warning
+        uint64_t tax;
+                    ^
+                     = 0
+2 warnings generated.
+gcc -o ifelseifTax.exe main.o 
+
+15:54:35 Build Finished. 0 errors, 2 warnings. (took 316ms)
+

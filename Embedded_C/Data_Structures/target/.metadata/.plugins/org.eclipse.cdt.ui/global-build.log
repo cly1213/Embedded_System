@@ -1,0 +1,96 @@
+15:59:23 **** Clean-only build of configuration Debug for project 01_1_array ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 01_2_array ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 01_3_array ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 01_4_array ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 01_5_array ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 01_6_array ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 01_7_array ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 02_1_structures ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 02_2_structures_union ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 02_3_structures_array ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:24 **** Clean-only build of configuration Debug for project 02_3_structures_with_nested ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:25 **** Clean-only build of configuration Debug for project 03_1_linked_list ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:25 **** Clean-only build of configuration Debug for project 03_2_linked_list_array ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:25 **** Clean-only build of configuration Debug for project 03_3_linked_list_insert ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:25 **** Clean-only build of configuration Debug for project 03_4_linked_list_delete ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:25 **** Clean-only build of configuration Debug for project 03_5_linked_list_max_min ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:25 **** Clean-only build of configuration Debug for project 03_6_linked_list_reverse ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:25 **** Clean-only build of configuration Debug for project 04_1_doublly_linked_list ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:25 **** Clean-only build of configuration Debug for project 04_2_doublly_linked_list_delete ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:25 **** Clean-only build of configuration Debug for project 05_1 _circular_linked_list ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:26 **** Clean-only build of configuration Debug for project 05_2 _circular_linked_list_delete ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:26 **** Clean-only build of configuration Debug for project 06_1_stack ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:26 **** Clean-only build of configuration Debug for project 06_2_stack_linkedlist ****
+make -j3 clean 
+rm -rf *
+ 
+15:59:26 **** Clean-only build of configuration Debug for project 07_1_queue ****
+make -j3 clean 
+rm -rf *
+ 

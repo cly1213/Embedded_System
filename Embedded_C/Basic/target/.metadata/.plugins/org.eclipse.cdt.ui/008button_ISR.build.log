@@ -1,0 +1,7 @@
+18:24:04 **** Clean-only build of configuration Debug for project 008button_ISR ****
+make -j3 clean 
+rm -rf *
+ 
+
+18:24:04 Build Finished. 0 errors, 0 warnings. (took 79ms)
+

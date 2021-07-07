@@ -1,0 +1,12 @@
+15:54:40 **** Rebuild of configuration Debug for project var_address ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+../main.c:27:38: warning: length modifier 'I64' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+   printf("Address of variable a1 = %I64x\n",addressOfa1);
+                                    ~^~~~
+1 warning generated.
+gcc -o var_address.exe main.o 
+
+15:54:40 Build Finished. 0 errors, 1 warnings. (took 257ms)
+

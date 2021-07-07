@@ -1,0 +1,7 @@
+18:24:03 **** Clean-only build of configuration Debug for project 004led_on ****
+make -j3 clean 
+rm -rf *
+ 
+
+18:24:03 Build Finished. 0 errors, 0 warnings. (took 82ms)
+

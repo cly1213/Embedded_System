@@ -1,0 +1,15 @@
+18:12:53 **** Incremental Build of configuration Debug for project arrays_passing ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: arrays_passing.exe
+Invoking: MacOS X C Linker
+gcc  -o "arrays_passing.exe"  ./main.o   
+Finished building target: arrays_passing.exe
+ 
+
+18:12:53 Build Finished. 0 errors, 0 warnings. (took 442ms)
+

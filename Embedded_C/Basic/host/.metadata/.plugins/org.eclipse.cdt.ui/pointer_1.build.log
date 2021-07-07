@@ -1,0 +1,12 @@
+15:54:36 **** Rebuild of configuration Debug for project pointer_1 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o pointer.o ../pointer.c 
+../pointer.c:26:36: warning: length modifier 'I64' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+ printf("Value at address %p is : %I64x\n",pAddress4,*pAddress4);
+                                  ~^~~~
+1 warning generated.
+gcc -o pointer_1.exe pointer.o 
+
+15:54:37 Build Finished. 0 errors, 1 warnings. (took 252ms)
+

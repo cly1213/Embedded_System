@@ -1,0 +1,15 @@
+15:54:33 **** Build of configuration Debug for project constdata2 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: constdata2.exe
+Invoking: MacOS X C Linker
+gcc  -o "constdata2.exe"  ./main.o   
+Finished building target: constdata2.exe
+ 
+
+15:54:33 Build Finished. 0 errors, 0 warnings. (took 341ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ASCII/ASCII.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;ASCII.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ASCII.c" name="main.c" stamp="1623148243927" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ASCII/main.c&apos; to &apos;ASCII.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main.c" name="ASCII.c" stamp="1623153201006" updateReferences="true"/>
+</session>

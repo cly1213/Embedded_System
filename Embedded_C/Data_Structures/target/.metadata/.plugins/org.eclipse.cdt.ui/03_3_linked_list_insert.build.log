@@ -1,0 +1,7 @@
+15:59:25 **** Clean-only build of configuration Debug for project 03_3_linked_list_insert ****
+make -j3 clean 
+rm -rf *
+ 
+
+15:59:25 Build Finished. 0 errors, 0 warnings. (took 78ms)
+

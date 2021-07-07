@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;009packed_Vsnonpacked&apos; to &apos;009packed_VS_nonpacked&apos;" description="Rename resource &apos;009packed_Vsnonpacked&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/009packed_Vsnonpacked" name="009packed_VS_nonpacked" stamp="1624349922330" updateReferences="true"/>
+</session>

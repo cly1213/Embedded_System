@@ -1,0 +1,8 @@
+15:54:29 **** Rebuild of configuration Debug for project 31_1_macro ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o ../test.c 
+gcc -o 31_1_macro.exe test.o 
+
+15:54:30 Build Finished. 0 errors, 0 warnings. (took 360ms)
+

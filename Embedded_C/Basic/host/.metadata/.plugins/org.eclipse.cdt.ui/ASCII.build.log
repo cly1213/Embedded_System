@@ -1,0 +1,15 @@
+15:54:30 **** Build of configuration Debug for project ASCII ****
+make all 
+Building file: ../ASCII.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ASCII.d" -MT"ASCII.o" -o "ASCII.o" "../ASCII.c"
+Finished building: ../ASCII.c
+ 
+Building target: ASCII.exe
+Invoking: MacOS X C Linker
+gcc  -o "ASCII.exe"  ./ASCII.o   
+Finished building target: ASCII.exe
+ 
+
+15:54:30 Build Finished. 0 errors, 0 warnings. (took 341ms)
+

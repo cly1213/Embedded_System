@@ -1,0 +1,15 @@
+15:54:30 **** Build of configuration Debug for project Average ****
+make all 
+Building file: ../main_new.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main_new.d" -MT"main_new.o" -o "main_new.o" "../main_new.c"
+Finished building: ../main_new.c
+ 
+Building target: Average.exe
+Invoking: MacOS X C Linker
+gcc  -o "Average.exe"  ./main_new.o   
+Finished building target: Average.exe
+ 
+
+15:54:31 Build Finished. 0 errors, 0 warnings. (took 343ms)
+

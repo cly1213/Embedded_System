@@ -1,0 +1,361 @@
+15:54:24 **** Build of configuration Debug for project 01HelloWorld ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 01HelloWorld
+Invoking: MacOS X C Linker
+gcc  -o "01HelloWorld"  ./main.o   
+Finished building target: 01HelloWorld
+ 
+15:54:24 **** Clean-only build of configuration Debug for project 25_1_structInit ****
+make clean 
+rm -rf  ./main.o  ./main.d  structInit.exe
+ 
+15:54:24 **** Build of configuration Debug for project 25_1_structInit ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:18:19: warning: unused variable 'carBMW' [-Wunused-variable]
+        struct carModel  carBMW = {0};
+                         ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: 25_1_structInit.exe
+Invoking: MacOS X C Linker
+gcc  -o "25_1_structInit.exe"  ./main.o   
+Finished building target: 25_1_structInit.exe
+ 
+15:54:25 **** Build of configuration Debug for project 25_2_dataAlignment ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 25_2_dataAlignment.exe
+Invoking: MacOS X C Linker
+gcc  -o "25_2_dataAlignment.exe"  ./main.o   
+Finished building target: 25_2_dataAlignment.exe
+ 
+15:54:25 **** Build of configuration Debug for project 25_3_structPacket ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 25_3_structPacket.exe
+Invoking: MacOS X C Linker
+gcc  -o "25_3_structPacket.exe"  ./main.o   
+Finished building target: 25_3_structPacket.exe
+ 
+15:54:26 **** Build of configuration Debug for project 25_4_structPointer ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 25_4_structPointer.exe
+Invoking: MacOS X C Linker
+gcc  -o "25_4_structPointer.exe"  ./main.o   
+Finished building target: 25_4_structPointer.exe
+ 
+15:54:26 **** Build of configuration Debug for project 25_5_structPacketBitfield ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 25_5_structPacketBitfield.exe
+Invoking: MacOS X C Linker
+gcc  -o "25_5_structPacketBitfield.exe"  ./main.o   
+Finished building target: 25_5_structPacketBitfield.exe
+ 
+15:54:26 **** Incremental Build of configuration Debug for project 26_1_union ****
+make all 
+make: Nothing to be done for `all'.
+15:54:27 **** Build of configuration Debug for project 26_2_unionBitExraction ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 26_2_unionBitExraction.exe
+Invoking: MacOS X C Linker
+gcc  -o "26_2_unionBitExraction.exe"  ./main.o   
+Finished building target: 26_2_unionBitExraction.exe
+ 
+15:54:27 **** Clean-only build of configuration Debug for project 29_1_arrays ****
+make clean 
+rm -rf  ./main.o  ./main.d  29_1_arrays.exe
+ 
+15:54:27 **** Build of configuration Debug for project 29_1_arrays ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 29_1_arrays.exe
+Invoking: MacOS X C Linker
+gcc  -o "29_1_arrays.exe"  ./main.o   
+Finished building target: 29_1_arrays.exe
+ 
+15:54:28 **** Clean-only build of configuration Debug for project 29_2_arrays_passing ****
+make clean 
+rm -rf  ./main.o  ./main.d  29_2_arrays_passing.exe
+ 
+15:54:28 **** Build of configuration Debug for project 29_2_arrays_passing ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 29_2_arrays_passing.exe
+Invoking: MacOS X C Linker
+gcc  -o "29_2_arrays_passing.exe"  ./main.o   
+Finished building target: 29_2_arrays_passing.exe
+ 
+15:54:28 **** Clean-only build of configuration Debug for project 29_3_arrays_swap ****
+make clean 
+rm -rf  ./main.o  ./main.d  29_3_arrays_swap.exe
+ 
+15:54:28 **** Build of configuration Debug for project 29_3_arrays_swap ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: 29_3_arrays_swap.exe
+Invoking: MacOS X C Linker
+gcc  -o "29_3_arrays_swap.exe"  ./main.o   
+Finished building target: 29_3_arrays_swap.exe
+ 
+15:54:29 **** Rebuild of configuration Debug for project 30_1_strings ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o 30_1_strings.exe main.o 
+15:54:29 **** Rebuild of configuration Debug for project 31_1_macro ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o ../test.c 
+gcc -o 31_1_macro.exe test.o 
+15:54:30 **** Build of configuration Debug for project ASCII ****
+make all 
+Building file: ../ASCII.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ASCII.d" -MT"ASCII.o" -o "ASCII.o" "../ASCII.c"
+Finished building: ../ASCII.c
+ 
+Building target: ASCII.exe
+Invoking: MacOS X C Linker
+gcc  -o "ASCII.exe"  ./ASCII.o   
+Finished building target: ASCII.exe
+ 
+15:54:30 **** Build of configuration Debug for project Average ****
+make all 
+Building file: ../main_new.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main_new.d" -MT"main_new.o" -o "main_new.o" "../main_new.c"
+Finished building: ../main_new.c
+ 
+Building target: Average.exe
+Invoking: MacOS X C Linker
+gcc  -o "Average.exe"  ./main_new.o   
+Finished building target: Average.exe
+ 
+15:54:31 **** Rebuild of configuration Debug for project WhileLoop1to10 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o WhileLoop1to10.exe main.o 
+15:54:31 **** Rebuild of configuration Debug for project bitWise2Numbers ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o bitWise2Numbers.exe main.o 
+15:54:31 **** Rebuild of configuration Debug for project bitWiseEvenOdd ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o bitWiseEvenOdd.exe main.o 
+15:54:32 **** Rebuild of configuration Debug for project bitWiseSet ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o bitWiseSet.exe main.o 
+15:54:32 **** Build of configuration Debug for project constdata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: constdata.exe
+Invoking: MacOS X C Linker
+gcc  -o "constdata.exe"  ./main.o   
+Finished building target: constdata.exe
+ 
+15:54:33 **** Build of configuration Debug for project constdata2 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: constdata2.exe
+Invoking: MacOS X C Linker
+gcc  -o "constdata2.exe"  ./main.o   
+Finished building target: constdata2.exe
+ 
+15:54:33 **** Rebuild of configuration Debug for project forLoopEvenNum ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o forLoopEvenNum.exe main.o 
+15:54:33 **** Rebuild of configuration Debug for project forloopNumberPyramid ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o forloopNumberPyramid.exe main.o 
+15:54:34 **** Rebuild of configuration Debug for project function ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o ../function.c 
+gcc -o function.exe function.o 
+15:54:34 **** Rebuild of configuration Debug for project ifelseBiggestOfTwo ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o ifelseBiggestOfTwo.exe main.o 
+15:54:35 **** Rebuild of configuration Debug for project ifelseCastVote ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o ifelseCastVote.exe main.o 
+15:54:35 **** Rebuild of configuration Debug for project ifelseifTax ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+../main.c:42:26: warning: length modifier 'I64' results in undefined behavior or no effect with 'u' conversion specifier [-Wformat]
+        printf("Tax payable : $%I64u\n",tax );
+                               ~^~~~
+../main.c:35:11: warning: variable 'tax' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+        }else if(income > 82500){
+                 ^~~~~~~~~~~~~~
+../main.c:42:34: note: uninitialized use occurs here
+        printf("Tax payable : $%I64u\n",tax );
+                                        ^~~
+../main.c:35:8: note: remove the 'if' if its condition is always true
+        }else if(income > 82500){
+              ^~~~~~~~~~~~~~~~~~
+../main.c:13:14: note: initialize the variable 'tax' to silence this warning
+        uint64_t tax;
+                    ^
+                     = 0
+2 warnings generated.
+gcc -o ifelseifTax.exe main.o 
+15:54:35 **** Rebuild of configuration Debug for project ifstatementCastVote ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o ifstatementCastVote.exe main.o 
+15:54:36 **** Rebuild of configuration Debug for project math ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+../main.c:9:17: warning: length modifier 'I64' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+        printf("Mul : %I64x\n",math_mul(0x0FFF1111 , 0x0FFF1111 ) );
+                      ~^~~~
+../main.c:11:35: error: use of undeclared identifier 'n1'
+        printf("Div : %0.2f\n", math_div(n1, n2));
+                                         ^
+../main.c:11:39: error: use of undeclared identifier 'n2'
+        printf("Div : %0.2f\n", math_div(n1, n2));
+                                             ^
+1 warning and 2 errors generated.
+15:54:36 **** Build of configuration Debug for project pointer ****
+make all 
+Building file: ../pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointer.d" -MT"pointer.o" -o "pointer.o" "../pointer.c"
+Finished building: ../pointer.c
+ 
+Building target: pointer.exe
+Invoking: MacOS X C Linker
+gcc  -o "pointer.exe"  ./pointer.o   
+Finished building target: pointer.exe
+ 
+15:54:36 **** Rebuild of configuration Debug for project pointer_1 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o pointer.o ../pointer.c 
+../pointer.c:26:36: warning: length modifier 'I64' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+ printf("Value at address %p is : %I64x\n",pAddress4,*pAddress4);
+                                  ~^~~~
+1 warning generated.
+gcc -o pointer_1.exe pointer.o 
+15:54:37 **** Rebuild of configuration Debug for project pointer_2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o pointer.o ../pointer.c 
+gcc -o pointer_2.exe pointer.o 
+15:54:37 **** Rebuild of configuration Debug for project struct_array ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o struct_array.exe main.o 
+15:54:38 **** Rebuild of configuration Debug for project student_record ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o student_record.exe main.o 
+15:54:38 **** Rebuild of configuration Debug for project switchCaseArea ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o switchCaseArea.exe main.o 
+15:54:38 **** Rebuild of configuration Debug for project test ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o ../test.c 
+gcc -o test.exe test.o 
+15:54:39 **** Rebuild of configuration Debug for project test2 ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o ../test.c 
+gcc -o test2.exe test.o 
+15:54:39 **** Rebuild of configuration Debug for project type_casting ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o type_cast.o ../type_cast.c 
+../type_cast.c:7:40: warning: implicit conversion from 'long' to 'unsigned char' changes value from 35184372069109 to 245 [-Wconstant-conversion]
+   unsigned char data = 0x1FFFFFFFA0B0 + 0x1245;
+                 ~~~~   ~~~~~~~~~~~~~~~^~~~~~~~
+1 warning generated.
+gcc -o type_casting.exe type_cast.o 
+15:54:40 **** Rebuild of configuration Debug for project var_address ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+../main.c:27:38: warning: length modifier 'I64' results in undefined behavior or no effect with 'x' conversion specifier [-Wformat]
+   printf("Address of variable a1 = %I64x\n",addressOfa1);
+                                    ~^~~~
+1 warning generated.
+gcc -o var_address.exe main.o 
+15:54:40 **** Rebuild of configuration Debug for project whileLoopEvenNum ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.c 
+gcc -o whileLoopEvenNum.exe main.o 
