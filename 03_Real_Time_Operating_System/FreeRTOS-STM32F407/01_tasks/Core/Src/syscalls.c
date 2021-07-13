@@ -32,11 +32,11 @@
 #include <sys/times.h>
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-//					Implementation of printf like feature using ARM Cortex M3/M4/ ITM functionality
-//					This function will not work for ARM Cortex M0/M0+
-//					If you are using Cortex M0, then you can use semihosting feature of openOCD
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//	Implementation of printf like feature using ARM Cortex M3/M4/ ITM functionality        //
+//	This function will not work for ARM Cortex M0/M0+                                      //
+//	If you are using Cortex M0, then you can use semihosting feature of openOCD            //
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 //Debug Exception and Monitor Control Register base address
@@ -113,7 +113,7 @@ __attribute__((weak)) int _write(int file, char *ptr, int len)
 	for (DataIdx = 0; DataIdx < len; DataIdx++)
 	{
 		//__io_putchar(*ptr++);
-		ITM_SendChar(*ptr++);
+		ITM_SendChar(*ptr++); //Add itm_sent_data.c function here
 	}
 	return len;
 }
