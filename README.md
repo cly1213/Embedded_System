@@ -1,4 +1,4 @@
-# Embedded_System
+# Embedded_Systems
 ```
 Host: macOS
 
