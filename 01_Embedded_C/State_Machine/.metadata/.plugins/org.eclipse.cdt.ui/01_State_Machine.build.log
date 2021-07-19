@@ -1,0 +1,10 @@
+15:58:34 **** Incremental Build of configuration Debug for project 01_State_Machine ****
+make -j3 all 
+arm-none-eabi-size   01_State_Machine.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3908	    120	   1600	   5628	   15fc	01_State_Machine.elf
+Finished building: default.size.stdout
+ 
+
+15:58:34 Build Finished. 0 errors, 0 warnings. (took 158ms)
+

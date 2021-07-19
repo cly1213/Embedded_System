@@ -1,0 +1,5 @@
+main.c:36:5:main	8	static
+main.c:47:6:state_machine_init	4	static
+main.c:54:6:state_a_function	8	static
+main.c:61:6:state_b_function	8	static
+main.c:68:6:state_c_function	8	static
