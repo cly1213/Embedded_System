@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/07_1_queue/03_1_linked_list.launch" element2="/07_1_queue/06_1_stack.launch" element3="/07_1_queue/06_2_stack_linkedlist.launch" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1626679516383"/>&#x0A;&#x0A;<refactoring comment="Delete resource &apos;01_State_Machine/07_1_queue.launch&apos;" deleteContents="false" description="Delete resource &apos;01_State_Machine/07_1_queue.launch&apos;" element1="/01_State_Machine/07_1_queue.launch" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1626679648246"/>
-</session>

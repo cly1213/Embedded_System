@@ -89,7 +89,7 @@ static void (*state_table[]) (void) = {state_a_function,
 
 void state_machine_init(void);
 
-uint8_t current_state;
+uint8_t current_state = 0;
 static int Clock;
 
 int main(void)
@@ -119,7 +119,7 @@ int main(void)
 
 void state_machine_init(void){
 
-	current_state = STATE_A;
+	//current_state = STATE_A;
 	Clock = 0 ;
 
 }
@@ -171,6 +171,9 @@ uint32_t sc_delta;
 
 void state_c_function(void){
 	if(Clock % 9){
+
+		Clock = 0;
+
 		current_state++;
 		sc_now = HAL_GetTick();
 
