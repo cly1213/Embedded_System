@@ -1,3 +1,11 @@
+## FreeRTOS Kernel
+ - Task
+ - Timer
+ - Semaphore
+ - Queue
+ - Memory Management
+ - Power
+ 
 ## Debugger tool
 ```
 SEGGER systemView Toolkit
