@@ -1,8 +1,12 @@
 ## FreeRTOS Kernel
  - Task
+   - Task Control Block(TCB)
+   - Scheduler
+   - Task state
  - Timer
  - Semaphore
  - Queue
+   - Queue Control Block (QCB) 
  - Memory Management
  - Power
  
