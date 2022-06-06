@@ -23,7 +23,6 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-
 #include "FreeRTOS.h"
 #include "task.h"
 
@@ -60,7 +59,7 @@ static void led_green_handler(void* parameters);
 static void led_orange_handler(void* parameters);
 static void led_red_handler(void* parameters);
 
-extern void SEGGER_UART_init(uint32_t);
+//extern void SEGGER_UART_init(uint32_t);
 
 /* USER CODE END PFP */
 
@@ -114,11 +113,11 @@ int main(void)
 
   configASSERT(status == pdPASS);
 
-  status = xTaskCreate(led_red_handler, "LED_red_task", 200, NULL, 2, &task2_handle);
+  status = xTaskCreate(led_orange_handler, "LED_orange_task", 200, NULL, 2, &task3_handle);
 
   configASSERT(status == pdPASS);
 
-  status = xTaskCreate(led_orange_handler, "LED_orange_task", 200, NULL, 2, &task3_handle);
+  status = xTaskCreate(led_red_handler, "LED_red_task", 200, NULL, 2, &task2_handle);
 
   configASSERT(status == pdPASS);
 
@@ -327,9 +326,10 @@ static void led_green_handler(void* parameters)
 
 	while(1)
 	{
-		SEGGER_SYSVIEW_PrintfTarget("Toggling green LED");
+		//SEGGER_SYSVIEW_PrintfTarget("Toggling green LED");
 		HAL_GPIO_TogglePin(GPIOD, LED_GREEN_PIN);
 		HAL_Delay(1000);
+		taskYIELD();
 	}
 
 }
@@ -339,9 +339,10 @@ static void led_orange_handler(void* parameters)
 {
 	while(1)
 	{
-		SEGGER_SYSVIEW_PrintfTarget("Toggling orange LED");
+		//SEGGER_SYSVIEW_PrintfTarget("Toggling orange LED");
 		HAL_GPIO_TogglePin(GPIOD, LED_ORANGE_PIN);
-		HAL_Delay(800);
+		HAL_Delay(1000);
+		taskYIELD();
 	}
 
 }
@@ -351,9 +352,10 @@ static void led_red_handler(void* parameters)
 {
 	while(1)
 	{
-		SEGGER_SYSVIEW_PrintfTarget("Toggling red LED");
+		//SEGGER_SYSVIEW_PrintfTarget("Toggling red LED");
 		HAL_GPIO_TogglePin(GPIOD, LED_RED_PIN);
-		HAL_Delay(400);
+		HAL_Delay(1000);
+		taskYIELD();
 	}
 
 }

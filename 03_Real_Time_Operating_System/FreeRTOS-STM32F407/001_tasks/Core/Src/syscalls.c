@@ -10,13 +10,12 @@
  ******************************************************************************
  * @attention
  *
- * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
- * All rights reserved.</center></h2>
+ * Copyright (c) 2022 STMicroelectronics.
+ * All rights reserved.
  *
- * This software component is licensed by ST under BSD 3-Clause license,
- * the "License"; You may not use this file except in compliance with the
- * License. You may obtain a copy of the License at:
- *                        opensource.org/licenses/BSD-3-Clause
+ * This software is licensed under terms that can be found in the LICENSE file
+ * in the root directory of this software component.
+ * If no LICENSE file comes with this software, it is provided AS-IS.
  *
  ******************************************************************************
  */
@@ -31,11 +30,10 @@
 #include <sys/time.h>
 #include <sys/times.h>
 
-
 /////////////////////////////////////////////////////////////////////////////////////////////////
-//	Implementation of printf like feature using ARM Cortex M3/M4/ ITM functionality        //
-//	This function will not work for ARM Cortex M0/M0+                                      //
-//	If you are using Cortex M0, then you can use semihosting feature of openOCD            //
+//	Implementation of printf like feature using ARM Cortex M3/M4/ ITM functionality            //
+//	This function will not work for ARM Cortex M0/M0+                                          //
+//	If you are using Cortex M0, then you can use semihosting feature of openOCD                //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -61,6 +59,8 @@ void ITM_SendChar(uint8_t ch)
 	//Write to ITM stimulus port0
 	ITM_STIMULUS_PORT0 = ch;
 }
+
+
 
 
 /* Variables */
@@ -113,7 +113,8 @@ __attribute__((weak)) int _write(int file, char *ptr, int len)
 	for (DataIdx = 0; DataIdx < len; DataIdx++)
 	{
 		//__io_putchar(*ptr++);
-		ITM_SendChar(*ptr++); //Add itm_sent_data.c function here
+		ITM_SendChar(*ptr++);
+
 	}
 	return len;
 }
