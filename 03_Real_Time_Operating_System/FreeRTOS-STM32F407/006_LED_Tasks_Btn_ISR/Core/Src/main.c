@@ -459,23 +459,16 @@ static void button_handler(void* parameters)
 {
 	uint8_t btn_read = 0;
 	uint8_t prev_read = 0;
-
 	while(1){
-
 		btn_read = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0);
-
 		if(btn_read){
-
 			if(! prev_read){
 				xTaskNotify(next_task_handle,0,eNoAction);
 			}
 		}
-
 		prev_read = btn_read;
 		vTaskDelay(pdMS_TO_TICKS(10));
-
 	}
-
 }
 */
 
@@ -530,3 +523,6 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

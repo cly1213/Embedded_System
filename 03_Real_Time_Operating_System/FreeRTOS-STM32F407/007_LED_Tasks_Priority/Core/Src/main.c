@@ -347,11 +347,8 @@ void switch_priority(void)
 
 	if(switch_priority){
 
-		t1 = xTaskGetHandle("Task-1"); //2
-		//t1 = 2;
-
-		t2 = xTaskGetHandle("Task-2"); //3
-        //t2 = 3;
+		t1 = xTaskGetHandle("Task-1");
+		t2 = xTaskGetHandle("Task-2");
 
 		p1 = uxTaskPriorityGet(t1);
 		p2 = uxTaskPriorityGet(t2);
@@ -375,8 +372,9 @@ static void task1_handler(void* parameters)
 	while(1)
 	{
 		HAL_GPIO_TogglePin(GPIOD, LED_RED_PIN);
-		HAL_Delay(100);
+		HAL_Delay(500);
 		switch_priority();
+		taskYIELD(); //leave processor
 	}
 
 }
@@ -390,6 +388,7 @@ static void task2_handler(void* parameters)
 		HAL_GPIO_TogglePin(GPIOD, LED_GREEN_PIN);
 		HAL_Delay(1000);
 		switch_priority();
+		taskYIELD(); //leave processor
 	}
 
 }
@@ -400,6 +399,24 @@ void button_interrupt_handler(void)
 	//traceISR_ENTER();
 	status_button = 1;
 	//traceISR_EXIT();
+/*
+	uint8_t btn_read = 0;
+	uint8_t prev_read = 0;
+
+		while(1){
+			btn_read = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0);
+			if(btn_read){
+				if(! prev_read){
+					//portENTER_CRITICAL();
+					status_button = 0;
+					//portEXIT_CRITICAL();
+				}
+			}
+			prev_read = btn_read;
+			vTaskDelay(pdMS_TO_TICKS(10));
+		}
+*/
+
 }
 
 /* USER CODE END 4 */

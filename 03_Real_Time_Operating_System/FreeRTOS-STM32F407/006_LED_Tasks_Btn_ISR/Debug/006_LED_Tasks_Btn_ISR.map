@@ -15,7 +15,7 @@ Archive member included to satisfy reference by file (symbol)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
                               /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
-                              ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o (strlen)
+                              ./common/ThirdParty/FreeRTOS/tasks.o (strlen)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
                               ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o (__aeabi_uldivmod)
 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
@@ -190,7 +190,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x0000000000000000      0x12d ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x0000000000000000      0x1ab ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x0000000000000000      0x113 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x0000000000000000      0x11b ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x0000000000000000       0x58 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x0000000000000000       0x46 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x0000000000000000       0x64 ./Core/Src/stm32f4xx_hal_msp.o
@@ -202,7 +202,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x0000000000000000       0x1c ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x0000000000000000       0x26 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x0000000000000000      0x3d0 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x0000000000000000      0x3c9 ./Core/Src/stm32f4xx_hal_msp.o
  .group         0x0000000000000000        0xc ./Core/Src/stm32f4xx_hal_timebase_tim.o
  .group         0x0000000000000000        0xc ./Core/Src/stm32f4xx_hal_timebase_tim.o
  .group         0x0000000000000000        0xc ./Core/Src/stm32f4xx_hal_timebase_tim.o
@@ -2575,7 +2575,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/FreeRTOS/croutine.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/FreeRTOS/croutine.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/FreeRTOS/croutine.o
@@ -2587,7 +2587,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/FreeRTOS/croutine.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/FreeRTOS/croutine.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000      0x120 ./common/ThirdParty/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0x49 ./common/ThirdParty/FreeRTOS/croutine.o
@@ -2695,7 +2695,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/FreeRTOS/event_groups.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/FreeRTOS/event_groups.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/FreeRTOS/event_groups.o
@@ -2707,7 +2707,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/FreeRTOS/event_groups.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/FreeRTOS/event_groups.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000      0x120 ./common/ThirdParty/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0x91 ./common/ThirdParty/FreeRTOS/event_groups.o
@@ -2784,7 +2784,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/FreeRTOS/list.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/FreeRTOS/list.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/FreeRTOS/list.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/FreeRTOS/list.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/FreeRTOS/list.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/FreeRTOS/list.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/FreeRTOS/list.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/FreeRTOS/list.o
@@ -2796,7 +2796,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/FreeRTOS/list.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/FreeRTOS/list.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/FreeRTOS/list.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/FreeRTOS/list.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/FreeRTOS/list.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/FreeRTOS/list.o
  .group         0x0000000000000000        0xc ./common/ThirdParty/FreeRTOS/queue.o
  .group         0x0000000000000000        0xc ./common/ThirdParty/FreeRTOS/queue.o
@@ -2915,7 +2915,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/FreeRTOS/queue.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/FreeRTOS/queue.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/FreeRTOS/queue.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/FreeRTOS/queue.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/FreeRTOS/queue.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/FreeRTOS/queue.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/FreeRTOS/queue.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/FreeRTOS/queue.o
@@ -2927,7 +2927,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/FreeRTOS/queue.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/FreeRTOS/queue.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/FreeRTOS/queue.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/FreeRTOS/queue.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/FreeRTOS/queue.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/FreeRTOS/queue.o
  .debug_macro   0x0000000000000000      0x120 ./common/ThirdParty/FreeRTOS/queue.o
  .group         0x0000000000000000        0xc ./common/ThirdParty/FreeRTOS/stream_buffer.o
@@ -3051,7 +3051,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0x35 ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0x20 ./common/ThirdParty/FreeRTOS/stream_buffer.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/FreeRTOS/stream_buffer.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/FreeRTOS/stream_buffer.o
@@ -3063,7 +3063,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/FreeRTOS/stream_buffer.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/FreeRTOS/stream_buffer.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000      0x120 ./common/ThirdParty/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0x18 ./common/ThirdParty/FreeRTOS/stream_buffer.o
@@ -3149,6 +3149,10 @@ Discarded input sections
                 0x0000000000000000       0x18 ./common/ThirdParty/FreeRTOS/tasks.o
  .text.pcTaskGetName
                 0x0000000000000000       0x48 ./common/ThirdParty/FreeRTOS/tasks.o
+ .text.prvSearchForNameWithinSingleList
+                0x0000000000000000       0xdc ./common/ThirdParty/FreeRTOS/tasks.o
+ .text.xTaskGetHandle
+                0x0000000000000000       0xcc ./common/ThirdParty/FreeRTOS/tasks.o
  .text.uxTaskGetSystemState
                 0x0000000000000000      0x11c ./common/ThirdParty/FreeRTOS/tasks.o
  .text.xTaskGetIdleTaskHandle
@@ -3221,7 +3225,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/FreeRTOS/tasks.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/FreeRTOS/tasks.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/FreeRTOS/tasks.o
@@ -3233,7 +3237,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/FreeRTOS/tasks.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/FreeRTOS/tasks.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000      0x120 ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_macro   0x0000000000000000       0x91 ./common/ThirdParty/FreeRTOS/tasks.o
@@ -3333,7 +3337,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/FreeRTOS/timers.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/FreeRTOS/timers.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/FreeRTOS/timers.o
@@ -3345,7 +3349,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/FreeRTOS/timers.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/FreeRTOS/timers.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000      0x120 ./common/ThirdParty/FreeRTOS/timers.o
  .debug_macro   0x0000000000000000       0x80 ./common/ThirdParty/FreeRTOS/timers.o
@@ -3387,7 +3391,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
@@ -3399,7 +3403,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0000000000000000      0x120 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .group         0x0000000000000000        0xc ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
@@ -3480,7 +3484,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
@@ -3492,7 +3496,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_macro   0x0000000000000000      0x120 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .group         0x0000000000000000        0xc ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
@@ -3538,7 +3542,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
@@ -3550,7 +3554,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .debug_line    0x0000000000000000      0x6be ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .debug_str     0x0000000000000000     0xb1ff ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
  .comment       0x0000000000000000       0x51 ./common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o
@@ -3615,7 +3619,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x103 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x6a ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000      0x1df ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
- .debug_macro   0x0000000000000000      0x113 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
+ .debug_macro   0x0000000000000000      0x11b ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x58 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x46 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x64 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
@@ -3627,7 +3631,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xea ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x1c ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x26 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
- .debug_macro   0x0000000000000000      0x3d0 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
+ .debug_macro   0x0000000000000000      0x3c9 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000       0xb5 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000      0x120 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_macro   0x0000000000000000       0x52 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
@@ -5127,7 +5131,7 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
 
-.debug_info     0x0000000000000000    0x1440a
+.debug_info     0x0000000000000000    0x14558
  .debug_info    0x0000000000000000     0x12e8 ./Core/Src/main.o
  .debug_info    0x00000000000012e8      0x2b7 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_info    0x000000000000159f      0xc21 ./Core/Src/stm32f4xx_hal_timebase_tim.o
@@ -5142,14 +5146,14 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_info    0x0000000000008254     0x15e0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_info    0x0000000000009834      0x2d1 ./common/ThirdParty/FreeRTOS/list.o
  .debug_info    0x0000000000009b05     0x1988 ./common/ThirdParty/FreeRTOS/queue.o
- .debug_info    0x000000000000b48d     0x23e7 ./common/ThirdParty/FreeRTOS/tasks.o
- .debug_info    0x000000000000d874      0xedd ./common/ThirdParty/FreeRTOS/timers.o
- .debug_info    0x000000000000e751      0x5ca ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
- .debug_info    0x000000000000ed1b      0x50d ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
- .debug_info    0x000000000000f228      0x43d ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
- .debug_info    0x000000000000f665     0x1575 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
- .debug_info    0x0000000000010bda       0x26 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o
- .debug_info    0x0000000000010c00     0x380a ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
+ .debug_info    0x000000000000b48d     0x2535 ./common/ThirdParty/FreeRTOS/tasks.o
+ .debug_info    0x000000000000d9c2      0xedd ./common/ThirdParty/FreeRTOS/timers.o
+ .debug_info    0x000000000000e89f      0x5ca ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
+ .debug_info    0x000000000000ee69      0x50d ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
+ .debug_info    0x000000000000f376      0x43d ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
+ .debug_info    0x000000000000f7b3     0x1575 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
+ .debug_info    0x0000000000010d28       0x26 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o
+ .debug_info    0x0000000000010d4e     0x380a ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
 
 .debug_abbrev   0x0000000000000000     0x2ce0
  .debug_abbrev  0x0000000000000000      0x306 ./Core/Src/main.o
@@ -5175,7 +5179,7 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_abbrev  0x00000000000029a6       0x14 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o
  .debug_abbrev  0x00000000000029ba      0x326 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
 
-.debug_aranges  0x0000000000000000     0x12c0
+.debug_aranges  0x0000000000000000     0x12d0
  .debug_aranges
                 0x0000000000000000       0x60 ./Core/Src/main.o
  .debug_aranges
@@ -5205,23 +5209,23 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_aranges
                 0x00000000000009b0      0x130 ./common/ThirdParty/FreeRTOS/queue.o
  .debug_aranges
-                0x0000000000000ae0      0x208 ./common/ThirdParty/FreeRTOS/tasks.o
+                0x0000000000000ae0      0x218 ./common/ThirdParty/FreeRTOS/tasks.o
  .debug_aranges
-                0x0000000000000ce8       0xd8 ./common/ThirdParty/FreeRTOS/timers.o
+                0x0000000000000cf8       0xd8 ./common/ThirdParty/FreeRTOS/timers.o
  .debug_aranges
-                0x0000000000000dc0       0x88 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
+                0x0000000000000dd0       0x88 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
  .debug_aranges
-                0x0000000000000e48       0x58 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
+                0x0000000000000e58       0x58 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
  .debug_aranges
-                0x0000000000000ea0       0x48 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
+                0x0000000000000eb0       0x48 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
  .debug_aranges
-                0x0000000000000ee8      0x138 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
+                0x0000000000000ef8      0x138 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
  .debug_aranges
-                0x0000000000001020       0x20 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o
+                0x0000000000001030       0x20 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o
  .debug_aranges
-                0x0000000000001040      0x280 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
+                0x0000000000001050      0x280 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
 
-.debug_ranges   0x0000000000000000     0x1158
+.debug_ranges   0x0000000000000000     0x1168
  .debug_ranges  0x0000000000000000       0x50 ./Core/Src/main.o
  .debug_ranges  0x0000000000000050       0x10 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_ranges  0x0000000000000060       0x20 ./Core/Src/stm32f4xx_hal_timebase_tim.o
@@ -5236,15 +5240,15 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_ranges  0x0000000000000760      0x158 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_ranges  0x00000000000008b8       0x30 ./common/ThirdParty/FreeRTOS/list.o
  .debug_ranges  0x00000000000008e8      0x120 ./common/ThirdParty/FreeRTOS/queue.o
- .debug_ranges  0x0000000000000a08      0x1f8 ./common/ThirdParty/FreeRTOS/tasks.o
- .debug_ranges  0x0000000000000c00       0xc8 ./common/ThirdParty/FreeRTOS/timers.o
- .debug_ranges  0x0000000000000cc8       0x78 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
- .debug_ranges  0x0000000000000d40       0x48 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
- .debug_ranges  0x0000000000000d88       0x38 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
- .debug_ranges  0x0000000000000dc0      0x128 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
- .debug_ranges  0x0000000000000ee8      0x270 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
+ .debug_ranges  0x0000000000000a08      0x208 ./common/ThirdParty/FreeRTOS/tasks.o
+ .debug_ranges  0x0000000000000c10       0xc8 ./common/ThirdParty/FreeRTOS/timers.o
+ .debug_ranges  0x0000000000000cd8       0x78 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
+ .debug_ranges  0x0000000000000d50       0x48 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
+ .debug_ranges  0x0000000000000d98       0x38 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
+ .debug_ranges  0x0000000000000dd0      0x128 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
+ .debug_ranges  0x0000000000000ef8      0x270 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
 
-.debug_macro    0x0000000000000000    0x22ae0
+.debug_macro    0x0000000000000000    0x22ae1
  .debug_macro   0x0000000000000000      0x2a3 ./Core/Src/main.o
  .debug_macro   0x00000000000002a3      0xa78 ./Core/Src/main.o
  .debug_macro   0x0000000000000d1b      0x295 ./Core/Src/main.o
@@ -5285,51 +5289,51 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_macro   0x000000000001e96a       0x47 ./Core/Src/main.o
  .debug_macro   0x000000000001e9b1      0x12d ./Core/Src/main.o
  .debug_macro   0x000000000001eade      0x1ab ./Core/Src/main.o
- .debug_macro   0x000000000001ec89      0x113 ./Core/Src/main.o
- .debug_macro   0x000000000001ed9c       0x58 ./Core/Src/main.o
- .debug_macro   0x000000000001edf4       0x46 ./Core/Src/main.o
- .debug_macro   0x000000000001ee3a       0x64 ./Core/Src/main.o
- .debug_macro   0x000000000001ee9e       0x49 ./Core/Src/main.o
- .debug_macro   0x000000000001eee7       0xc3 ./Core/Src/main.o
- .debug_macro   0x000000000001efaa      0x204 ./Core/Src/main.o
- .debug_macro   0x000000000001f1ae      0x450 ./Core/Src/main.o
- .debug_macro   0x000000000001f5fe      0x15a ./Core/Src/main.o
- .debug_macro   0x000000000001f758       0xea ./Core/Src/main.o
- .debug_macro   0x000000000001f842       0x1c ./Core/Src/main.o
- .debug_macro   0x000000000001f85e       0x26 ./Core/Src/main.o
- .debug_macro   0x000000000001f884      0x3d0 ./Core/Src/main.o
- .debug_macro   0x000000000001fc54       0xb5 ./Core/Src/main.o
- .debug_macro   0x000000000001fd09      0x120 ./Core/Src/main.o
- .debug_macro   0x000000000001fe29      0x285 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x00000000000200ae      0x1c4 ./Core/Src/stm32f4xx_hal_timebase_tim.o
- .debug_macro   0x0000000000020272      0x1dd ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x000000000002044f      0x1c4 ./Core/Src/system_stm32f4xx.o
- .debug_macro   0x0000000000020613      0x224 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_macro   0x0000000000020837      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_macro   0x00000000000209fb      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_macro   0x0000000000020bc5      0x1e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_macro   0x0000000000020dad      0x1c5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_macro   0x0000000000020f72      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_macro   0x0000000000021136      0x1f5 ./common/ThirdParty/FreeRTOS/list.o
- .debug_macro   0x000000000002132b      0x27e ./common/ThirdParty/FreeRTOS/queue.o
- .debug_macro   0x00000000000215a9       0x16 ./common/ThirdParty/FreeRTOS/queue.o
- .debug_macro   0x00000000000215bf       0x20 ./common/ThirdParty/FreeRTOS/queue.o
- .debug_macro   0x00000000000215df       0x80 ./common/ThirdParty/FreeRTOS/queue.o
- .debug_macro   0x000000000002165f      0x2e2 ./common/ThirdParty/FreeRTOS/tasks.o
- .debug_macro   0x0000000000021941       0x10 ./common/ThirdParty/FreeRTOS/tasks.o
- .debug_macro   0x0000000000021951      0x23e ./common/ThirdParty/FreeRTOS/timers.o
- .debug_macro   0x0000000000021b8f       0x97 ./common/ThirdParty/FreeRTOS/timers.o
- .debug_macro   0x0000000000021c26      0x1f8 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
- .debug_macro   0x0000000000021e1e      0x210 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
- .debug_macro   0x000000000002202e      0x204 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
- .debug_macro   0x0000000000022232      0x1bd ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
- .debug_macro   0x00000000000223ef       0x34 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
- .debug_macro   0x0000000000022423      0x138 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
- .debug_macro   0x000000000002255b      0x213 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
- .debug_macro   0x000000000002276e      0x204 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
- .debug_macro   0x0000000000022972      0x16e ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
+ .debug_macro   0x000000000001ec89      0x11b ./Core/Src/main.o
+ .debug_macro   0x000000000001eda4       0x58 ./Core/Src/main.o
+ .debug_macro   0x000000000001edfc       0x46 ./Core/Src/main.o
+ .debug_macro   0x000000000001ee42       0x64 ./Core/Src/main.o
+ .debug_macro   0x000000000001eea6       0x49 ./Core/Src/main.o
+ .debug_macro   0x000000000001eeef       0xc3 ./Core/Src/main.o
+ .debug_macro   0x000000000001efb2      0x204 ./Core/Src/main.o
+ .debug_macro   0x000000000001f1b6      0x450 ./Core/Src/main.o
+ .debug_macro   0x000000000001f606      0x15a ./Core/Src/main.o
+ .debug_macro   0x000000000001f760       0xea ./Core/Src/main.o
+ .debug_macro   0x000000000001f84a       0x1c ./Core/Src/main.o
+ .debug_macro   0x000000000001f866       0x26 ./Core/Src/main.o
+ .debug_macro   0x000000000001f88c      0x3c9 ./Core/Src/main.o
+ .debug_macro   0x000000000001fc55       0xb5 ./Core/Src/main.o
+ .debug_macro   0x000000000001fd0a      0x120 ./Core/Src/main.o
+ .debug_macro   0x000000000001fe2a      0x285 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x00000000000200af      0x1c4 ./Core/Src/stm32f4xx_hal_timebase_tim.o
+ .debug_macro   0x0000000000020273      0x1dd ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0000000000020450      0x1c4 ./Core/Src/system_stm32f4xx.o
+ .debug_macro   0x0000000000020614      0x224 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_macro   0x0000000000020838      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_macro   0x00000000000209fc      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_macro   0x0000000000020bc6      0x1e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_macro   0x0000000000020dae      0x1c5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_macro   0x0000000000020f73      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_macro   0x0000000000021137      0x1f5 ./common/ThirdParty/FreeRTOS/list.o
+ .debug_macro   0x000000000002132c      0x27e ./common/ThirdParty/FreeRTOS/queue.o
+ .debug_macro   0x00000000000215aa       0x16 ./common/ThirdParty/FreeRTOS/queue.o
+ .debug_macro   0x00000000000215c0       0x20 ./common/ThirdParty/FreeRTOS/queue.o
+ .debug_macro   0x00000000000215e0       0x80 ./common/ThirdParty/FreeRTOS/queue.o
+ .debug_macro   0x0000000000021660      0x2e2 ./common/ThirdParty/FreeRTOS/tasks.o
+ .debug_macro   0x0000000000021942       0x10 ./common/ThirdParty/FreeRTOS/tasks.o
+ .debug_macro   0x0000000000021952      0x23e ./common/ThirdParty/FreeRTOS/timers.o
+ .debug_macro   0x0000000000021b90       0x97 ./common/ThirdParty/FreeRTOS/timers.o
+ .debug_macro   0x0000000000021c27      0x1f8 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
+ .debug_macro   0x0000000000021e1f      0x210 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
+ .debug_macro   0x000000000002202f      0x204 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
+ .debug_macro   0x0000000000022233      0x1bd ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
+ .debug_macro   0x00000000000223f0       0x34 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
+ .debug_macro   0x0000000000022424      0x138 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
+ .debug_macro   0x000000000002255c      0x213 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
+ .debug_macro   0x000000000002276f      0x204 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
+ .debug_macro   0x0000000000022973      0x16e ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
 
-.debug_line     0x0000000000000000    0x1495e
+.debug_line     0x0000000000000000    0x14a48
  .debug_line    0x0000000000000000      0xc2e ./Core/Src/main.o
  .debug_line    0x0000000000000c2e      0x9a4 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_line    0x00000000000015d2      0x72f ./Core/Src/stm32f4xx_hal_timebase_tim.o
@@ -5344,16 +5348,16 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_line    0x0000000000009174     0x19b4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_line    0x000000000000ab28      0x940 ./common/ThirdParty/FreeRTOS/list.o
  .debug_line    0x000000000000b468     0x17f5 ./common/ThirdParty/FreeRTOS/queue.o
- .debug_line    0x000000000000cc5d     0x1f1a ./common/ThirdParty/FreeRTOS/tasks.o
- .debug_line    0x000000000000eb77      0xe9f ./common/ThirdParty/FreeRTOS/timers.o
- .debug_line    0x000000000000fa16      0xa51 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
- .debug_line    0x0000000000010467      0xb8b ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
- .debug_line    0x0000000000010ff2      0x9bd ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
- .debug_line    0x00000000000119af      0xef5 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
- .debug_line    0x00000000000128a4       0xd8 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o
- .debug_line    0x000000000001297c     0x1fe2 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
+ .debug_line    0x000000000000cc5d     0x2004 ./common/ThirdParty/FreeRTOS/tasks.o
+ .debug_line    0x000000000000ec61      0xe9f ./common/ThirdParty/FreeRTOS/timers.o
+ .debug_line    0x000000000000fb00      0xa51 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
+ .debug_line    0x0000000000010551      0xb8b ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
+ .debug_line    0x00000000000110dc      0x9bd ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
+ .debug_line    0x0000000000011a99      0xef5 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
+ .debug_line    0x000000000001298e       0xd8 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o
+ .debug_line    0x0000000000012a66     0x1fe2 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
 
-.debug_str      0x0000000000000000    0xd6972
+.debug_str      0x0000000000000000    0xd69ce
  .debug_str     0x0000000000000000    0xcb71d ./Core/Src/main.o
                                       0xcbaf4 (size before relaxing)
  .debug_str     0x00000000000cb71d       0x40 ./Core/Src/stm32f4xx_hal_msp.o
@@ -5382,21 +5386,21 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
                                        0xe80c (size before relaxing)
  .debug_str     0x00000000000d09f2     0x1260 ./common/ThirdParty/FreeRTOS/queue.o
                                       0x10d03 (size before relaxing)
- .debug_str     0x00000000000d1c52     0x1c7e ./common/ThirdParty/FreeRTOS/tasks.o
-                                      0x11b70 (size before relaxing)
- .debug_str     0x00000000000d38d0      0x53f ./common/ThirdParty/FreeRTOS/timers.o
+ .debug_str     0x00000000000d1c52     0x1ce1 ./common/ThirdParty/FreeRTOS/tasks.o
+                                      0x11bd3 (size before relaxing)
+ .debug_str     0x00000000000d3933      0x53f ./common/ThirdParty/FreeRTOS/timers.o
                                       0x1102b (size before relaxing)
- .debug_str     0x00000000000d3e0f      0x7bd ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
+ .debug_str     0x00000000000d3e72      0x7bd ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
                                        0xd36f (size before relaxing)
- .debug_str     0x00000000000d45cc      0x348 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
+ .debug_str     0x00000000000d462f      0x348 ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
                                        0xfcd5 (size before relaxing)
- .debug_str     0x00000000000d4914      0x173 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
+ .debug_str     0x00000000000d4977      0x173 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
                                        0xfa4d (size before relaxing)
- .debug_str     0x00000000000d4a87     0x108c ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
+ .debug_str     0x00000000000d4aea     0x1085 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
                                        0x77ca (size before relaxing)
- .debug_str     0x00000000000d5b13       0x6c ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o
+ .debug_str     0x00000000000d5b6f       0x6c ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o
                                          0xba (size before relaxing)
- .debug_str     0x00000000000d5b7f      0xdf3 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
+ .debug_str     0x00000000000d5bdb      0xdf3 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
                                        0x97d6 (size before relaxing)
 
 .comment        0x0000000000000000       0x50
@@ -5422,7 +5426,7 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .comment       0x0000000000000050       0x51 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
  .comment       0x0000000000000050       0x51 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
 
-.debug_frame    0x0000000000000000     0x4ee0
+.debug_frame    0x0000000000000000     0x4f2c
  .debug_frame   0x0000000000000000      0x144 ./Core/Src/main.o
  .debug_frame   0x0000000000000144       0x34 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_frame   0x0000000000000178       0x74 ./Core/Src/stm32f4xx_hal_timebase_tim.o
@@ -5436,16 +5440,16 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_frame   0x0000000000002014      0x638 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_frame   0x000000000000264c       0xd8 ./common/ThirdParty/FreeRTOS/list.o
  .debug_frame   0x0000000000002724      0x544 ./common/ThirdParty/FreeRTOS/queue.o
- .debug_frame   0x0000000000002c68      0x8fc ./common/ThirdParty/FreeRTOS/tasks.o
- .debug_frame   0x0000000000003564      0x38c ./common/ThirdParty/FreeRTOS/timers.o
- .debug_frame   0x00000000000038f0      0x1d0 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
- .debug_frame   0x0000000000003ac0      0x12c ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
- .debug_frame   0x0000000000003bec      0x104 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
- .debug_frame   0x0000000000003cf0      0x530 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
- .debug_frame   0x0000000000004220      0xbc4 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
- .debug_frame   0x0000000000004de4       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000004e10       0x28 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcmp.o)
- .debug_frame   0x0000000000004e38       0x28 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000004e60       0x20 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000004e80       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000000000004eac       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000002c68      0x948 ./common/ThirdParty/FreeRTOS/tasks.o
+ .debug_frame   0x00000000000035b0      0x38c ./common/ThirdParty/FreeRTOS/timers.o
+ .debug_frame   0x000000000000393c      0x1d0 ./common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o
+ .debug_frame   0x0000000000003b0c      0x12c ./common/ThirdParty/FreeRTOS/portable/MemMang/heap_4.o
+ .debug_frame   0x0000000000003c38      0x104 ./common/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o
+ .debug_frame   0x0000000000003d3c      0x530 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_RTT.o
+ .debug_frame   0x000000000000426c      0xbc4 ./common/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.o
+ .debug_frame   0x0000000000004e30       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000004e5c       0x28 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000004e84       0x28 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000004eac       0x20 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000004ecc       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000004ef8       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.macos64_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
