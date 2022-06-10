@@ -1,5 +1,0 @@
-/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/common/ThirdParty/FreeRTOS/list.c:48:6:vListInitialise	16	static
-/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/common/ThirdParty/FreeRTOS/list.c:73:6:vListInitialiseItem	16	static
-/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/common/ThirdParty/FreeRTOS/list.c:85:6:vListInsertEnd	24	static
-/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/common/ThirdParty/FreeRTOS/list.c:115:6:vListInsert	24	static
-/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/common/ThirdParty/FreeRTOS/list.c:183:13:uxListRemove	24	static
