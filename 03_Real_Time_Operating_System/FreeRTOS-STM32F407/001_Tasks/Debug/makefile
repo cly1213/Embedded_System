@@ -63,8 +63,8 @@ all: main-build
 main-build: 001_Tasks.elf secondary-outputs
 
 # Tool invocations
-001_Tasks.elf 001_Tasks.map: $(OBJS) $(USER_OBJS) /Users/leo/Workspace/RTOS_workspace/001_Tasks/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "001_Tasks.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/leo/Workspace/RTOS_workspace/001_Tasks/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+001_Tasks.elf 001_Tasks.map: $(OBJS) $(USER_OBJS) /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "001_Tasks.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001_Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

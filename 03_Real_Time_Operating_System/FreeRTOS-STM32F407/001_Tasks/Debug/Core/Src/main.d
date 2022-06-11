@@ -26,15 +26,15 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- /Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h \
- /Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
- /Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/projdefs.h \
- /Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/portable.h \
- /Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
- /Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
- /Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
- /Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/task.h \
- /Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/list.h
+ /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h \
+ /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/projdefs.h \
+ /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/portable.h \
+ /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
+ /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
+ /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/task.h \
+ /Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/list.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -63,12 +63,12 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
-/Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h:
-/Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
-/Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/projdefs.h:
-/Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/portable.h:
-/Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
-/Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
-/Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
-/Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/task.h:
-/Users/leo/Workspace/RTOS_workspace/001_Tasks/ThirdParty/FreeRTOS/include/list.h:
+/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/FreeRTOS.h:
+/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/projdefs.h:
+/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/portable.h:
+/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
+/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
+/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/task.h:
+/Users/leo/Embedded_System/03_Real_Time_Operating_System/FreeRTOS-STM32F407/001_Tasks/ThirdParty/FreeRTOS/include/list.h:
